@@ -1,4 +1,5 @@
 # A-Variation-of-Simplex-Algorithm
+In the general case,  the simplex algorithm may converge to optimality faster,  if we start from a vertex, which is on the hyperplanes, whose normals create minimal angle with the objective function gradient.  So in order to implement this, we introduce a modification of the simplex algorithm.  First, we sort all the hyperplanes in ascending order,  in accordance with the dot product of their normal with the objective function gradient.  Then we start our usual simplex algorithm from the vertex defined bythe first n hyperplanes of the sorted list. Notice that this vertex may not be in the feasible solution.
 
 ### Generating random test cases
 
