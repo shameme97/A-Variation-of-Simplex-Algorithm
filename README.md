@@ -17,10 +17,10 @@ To run your own test case, do the following steps:
 3. Type your desired test case in the .txt file in the following manner:-
 
 	Objective function: max 4x + 6y
-	Constraints:
-	0.5x + 1y <= 600
-	12.5x + 10y <= 10000
-	1x + 0y <= 700 
+	\nConstraints:
+	\n0.5x + 1y <= 600
+	\n12.5x + 10y <= 10000
+	\n1x + 0y <= 700 
 
 
 NOTE: This version of program is buggy for '>=' and '=' constraints.
