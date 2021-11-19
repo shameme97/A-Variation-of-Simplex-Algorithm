@@ -12,7 +12,7 @@ To run this algorithm with random test cases, do the following steps:
 # Input from file
 
 To run your own test case, do the following steps:
-1. Uncomment the portion under the comment "Input from file" (line 306-321).
+1. Uncomment the portion under the comment "Input from file" in the main.py file (line 306-321).
 2. Set the directory of your input .txt file in the Input.py file, in the function take_input_from_file(), line 103.
 3. Type your desired test case in the .txt file in the following manner:-
 
