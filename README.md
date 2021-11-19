@@ -4,10 +4,10 @@
 
 To run this algorithm with random test cases, do the following steps:
 1. Fix the number of variables and number of contraints to your preferrance in the main.py file in line 249-250.
-2. Fix the range of random numbers for your coefficients in the Generate_Testcases.py file.
-	2.i) Fix the range of random numbers for objective function coefficient in the generate_objective_function() in line 9.
-	2.ii) Fix the range of random numbers for the coefficients of constraints in the function generate_lhs_of_constraints() in line 20.
-	      Note: If for all test cases you get "The system has no solutions or has many solutions." then set the lower range such that |lower range|<|upper range|. Slowly decrease the lower range till you get some test cases which show "Found Infeasibility".
+2. Fix the range of random numbers for your coefficients in the Generate_Testcases.py file.  
+	2.i) Fix the range of random numbers for objective function coefficient in the generate_objective_function() in line 9.  
+	2.ii) Fix the range of random numbers for the coefficients of constraints in the function generate_lhs_of_constraints() in line 20.  
+	      Note: If for all test cases you get "The system has no solutions or has many solutions." then set the lower range such that |lower range|<|upper range|. Slowly decrease the lower range till you get some test cases which show "Found Infeasibility".  
 
 # Input from file
 
