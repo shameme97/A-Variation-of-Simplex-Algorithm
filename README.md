@@ -2,7 +2,7 @@
 
 # Generating random test cases
 
-To run this algorith with random test cases, do the following steps:
+To run this algorithm with random test cases, do the following steps:
 1. Fix the number of variables and number of contraints to your preferrance in the main.py file in line 249-250.
 2. Fix the range of random numbers for your coefficients in the Generate_Testcases.py file.
 	2.i) Fix the range of random numbers for objective function coefficient in the generate_objective_function() in line 9.
