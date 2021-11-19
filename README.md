@@ -23,4 +23,4 @@ To run your own test case, do the following steps:
 	1x + 0y <= 700   
 
 
-NOTE: This version of program is buggy for '>=' and '=' constraints.
+NOTE: This version of program is buggy for '>=' and '=' constraints and can only solve for maximizing linear programming problems.
