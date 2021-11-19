@@ -1,6 +1,6 @@
 # A-Variation-of-Simplex-Algorithm
 
-# Generating random test cases
+### Generating random test cases
 
 To run this algorithm with random test cases, do the following steps:
 1. Fix the number of variables and number of contraints to your preferrance in the main.py file in line 249-250.
@@ -9,7 +9,7 @@ To run this algorithm with random test cases, do the following steps:
 	2.ii) Fix the range of random numbers for the coefficients of constraints in the function generate_lhs_of_constraints() in line 20.  
 	      Note: If for all test cases you get "The system has no solutions or has many solutions." then set the lower range such that |lower range|<|upper range|. Slowly decrease the lower range till you get some test cases which show "Found Infeasibility".  
 
-# Input from file
+### Input from file
 
 To run your own test case, do the following steps:
 1. Uncomment the portion under the comment "Input from file" in the main.py file (line 306-321).
